@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Área do Aluno</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/script_curso.js"></script>
+        <link rel="stylesheet" href="css/style_curso.css">
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <a href="index.html"><section id="logoHeader"></section></a>
+            <h3>ÁREA DO ALUNO</h3>
+        </header>
+      
+        <!-- MENU DE BARRA LATERAL A ESQUERDA-->
+            <section>
+                <input type="checkbox" id="check">
+                <label for="check" id="icone"><img src="css/img/icon.png"/></label>
+                <div class="barra">	
+                    <nav>
+                        <a href="#" id="aula0" onclick="chamaVideo(this.id)"><div class="link" id="aula0">Aula Atendimento para provedor</div></a>
+                        <a href="#" id="aula1" onclick="chamaVideo(this.id)"><div class="link" id="aula1">Aula 1</div></a>
+                        <a href="#" id="aula2" onclick="chamaVideo(this.id)"><div class="link" id="aula2">Aula 2</div></a>
+                        <a href="#" id="aula3" onclick="chamaVideo(this.id)"><div class="link" id="aula3">Aula 3</div></a>
+                        <a href="#" id="aula4" onclick="chamaVideo(this.id)"><div class="link" id="aula4">Aula 4</div></a>
+                        <a href="#" id="aula5" onclick="chamaVideo(this.id)"><div class="link" id="aula5">Aula 5</div></a>
+                        <a href="#" id="aula6" onclick="chamaVideo(this.id)"><div class="link" id="aula6">Aula 6</div></a>
+                        <a href="#" id="aula7" onclick="chamaVideo(this.id)"><div class="link" id="aula7">Aula 7</div></a>
+                        <a href="#" id="aula8" onclick="chamaVideo(this.id)"><div class="link" id="aula8">Aula 8</div></a>
+                        <a href="#" id="aula9" onclick="chamaVideo(this.id)"><div class="link" id="aula9">Aula 9</div></a>
+                        <a href="#" id="aula10" onclick="chamaVideo(this.id)"><div class="link" id="aula10">Aula 10</div></a>
+                        <a href="#" id="aula11" onclick="chamaVideo(this.id)"><div class="link" id="aula11">Aula 11</div></a>
+                        <a href="#" id="aula12" onclick="chamaVideo(this.id)"><div class="link" id="aula12">Aula 12</div></a>
+                        <a href="#" id="aula13" onclick="chamaVideo(this.id)"><div class="link" id="aula13">Aula 13</div></a>
+                        <a href="#" id="aula14" onclick="chamaVideo(this.id)"><div class="link" id="aula14">Aula 14</div></a>
+                        <a href="#" id="aula15" onclick="chamaVideo(this.id)"><div class="link" id="aula15">Aula 15</div></a>
+                        <a href="#" id="aula16" onclick="chamaVideo(this.id)"><div class="link" id="aula16">Aula 16</div></a>
+                        <a href="#" id="aula17" onclick="chamaVideo(this.id)"><div class="link" id="aula17">Aula 17</div></a>
+                        <a href="#" id="aula18" onclick="chamaVideo(this.id)"><div class="link" id="aula18">Aula 18</div></a>
+                        <a href="#" id="aula19" onclick="chamaVideo(this.id)"><div class="link" id="aula19">Aula 19</div></a>
+                        <a href="#" id="aula20" onclick="chamaVideo(this.id)"><div class="link" id="aula20">Aula 20</div></a>
+                        <a href="#" id="aula21" onclick="chamaVideo(this.id)"><div class="link" id="aula21">Aula 21</div></a>
+                        <a href="#" id="aula22" onclick="chamaVideo(this.id)"><div class="link" id="aula22">Aula 22</div></a>
+                        <a href="#" id="aula23" onclick="chamaVideo(this.id)"><div class="link" id="aula23">Aula 23</div></a>
+                        <a href="#" id="aula24" onclick="chamaVideo(this.id)"><div class="link" id="aula24">Aula 24</div></a>
+                        <a href="#" id="aula25" onclick="chamaVideo(this.id)"><div class="link" id="aula25">Tudo sobre power meter</div></a>
+                        <a href="#" id="aula26" onclick="chamaVideo(this.id)"><div class="link" id="aula26">Aula Da OLT á ONU </div></a>
+                        <a href="#" id="aula27" onclick="chamaVideo(this.id)"><div class="link" id="aula27">Projeto de fibra óptica </div></a>
+                       
+                        <a href="javascript:void(0)" id="prova" onclick="chamaVideo(this.id)"><div class="link">Prova Final</div></a>
+                        <a href="index.html" id="pgPrincipal" ><div class="link">Página Principal</div></a>
+                    </nav>	
+                </div>
+            </section>
+
+        <!-- MAIN COM CONTEÚDO DO VÍDEO CENTRALIZADA AO MEIO -->
+        <main id="videoAula" align="center">
+            <article> 
+                <h4>Cursos</h4>
+                <iframe align="middle" id="iframe" src="https://www.youtube.com/embed/8mei6uVttho" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            
+                <section id="secSugestao">
+                    <h4 id="h4">Sugestões de Aulas</h4>
+                </section>
+                <section class="previaSection"><img src="css/img/fibra.png" alt="aulas" id="imagem1"></section>
+                <section class="previaSection"><img src="css/img/meter.jpg" alt="aulas" id="imagem2"></section>      
+                <section class="previaSection"><img src="css/img/atendimento.jpg" alt="aulas" id="imagem3"></section> 
+            </article>  
+        </main> 
+
+        <!-- FOOTER -->
+        <footer><br>
+            <section class="LogoFooter"></section>
+            <section>
+                <h5>SUPORTE<br></h5>
+                <br>
+                <h6>&copy; Powernet Todos os direitos reservados - 2024</h6>
+            </section>
+        </footer>
+
+    </body>
+</html>
